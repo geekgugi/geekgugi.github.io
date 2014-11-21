@@ -100,4 +100,26 @@
 </div>
    
 
-<div class="uk-tooltip"></div></body></html>
+<div class="uk-tooltip"></div></body>
+<script>
+$( document ).ready(function() {
+    $('form').submit(function() {
+         var booking_email = $('.sb-search-input').val();
+        if ( /(.+)@(.+){2,}\.(.+){2,}/.test(booking_email) ) {
+           var data = {
+                email:booking_email
+           }
+           var url = 'http://lm-geekspeaks.rhcloud.com/api/curious/'
+           var posting = $.post(url, data);
+           posting.done(function(data) {
+             console.log("success");
+          });
+        
+             // valid email
+       } else {
+           // invalid email
+       } 
+   });
+});
+</script>
+</html>
