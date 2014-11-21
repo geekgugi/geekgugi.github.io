@@ -103,7 +103,7 @@
 <div class="uk-tooltip"></div></body>
 <script>
 $( document ).ready(function() {
-    $('form').submit(function() {
+    $('form#contact').submit(function() {
          var booking_email = $('.sb-search-input').val();
          console.log("Submit caclled");
         if ( /(.+)@(.+){2,}\.(.+){2,}/.test(booking_email) ) {
@@ -121,7 +121,8 @@ $( document ).ready(function() {
            // valid email
        } else {
            // invalid email
-       } 
+       }
+       return false; 
    });
 });
 </script>
