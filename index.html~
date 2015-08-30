@@ -14,11 +14,11 @@
 <link rel="shortcut icon" href="http://www.downloadwebsitetemplates.co.uk/templates/progress/images/ico/favicon.png">
 <!--[if IE]><![endif]-->
 <link rel="stylesheet" href="http://www.downloadwebsitetemplates.co.uk/templates/progress/css/style.css">
-<script src="scripts/jquery(1).js"></script>
-<script src="scripts/countdown.js"></script>
-<script src="scripts/owlcarousel.js"></script>
-<script src="scripts/uikit.scrollspy.js"></script>
-<script src="scripts/scripts.js"></script>
+<script src="jquery(1).js"></script>
+<script src="countdown.js"></script>
+<script src="owlcarousel.js"></script>
+<script src="uikit.scrollspy.js"></script>
+<script src="scripts.js"></script>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body id="backtotop">
